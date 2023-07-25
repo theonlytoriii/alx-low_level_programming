@@ -1,10 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 /**
+ * puts_half - prints half of a string
  * _strlen - returns the length of a string
  * @s: string
  * Return: length
  */
-int _strlen(char *s)
+int puts_half(char *str)
 {
 	int longi = 0;
 
